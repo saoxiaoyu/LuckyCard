@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>王宇's个人信息电子名片</title>
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="王宇" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="王宇">王宇</h1>
+          <p class="title">XX专业学生</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>显示联系方式</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">邮箱</p>
+              <a href="mailto:wangyu@xiaoyu.ac.cn" class="contact-link">【填写邮箱】</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">电话</p>
+              <a href="tel:+86" class="contact-link">+86 [联系电话]</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">出生年月</p>
+              <time datetime="2003-09">2003年9月</time>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">籍贯</p>
+              <address>[籍贯]</address>
+            </div>
+          </li>
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+          <li class="social-item"><a href="#" class="social-link" title="微信"><ion-icon name="logo-wechat"></ion-icon></a></li>
+          <li class="social-item"><a href="#" class="social-link" title="Github"><ion-icon name="logo-github"></ion-icon></a></li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item"><button class="navbar-link active" data-nav-link>关于我</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>荣誉集</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>作品集</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>经历集</button></li>
+          <li class="navbar-item"><button class="navbar-link" data-nav-link>公众号</button></li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">关于我</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            我是来自XX的王宇，求职意向是XX。
+          </p>
+          <p>
+            在校期间，我不仅系统学习了冶金相关课程，还自修了Python、Web开发等技术课程，具备良好的跨学科能力，同时，我热衷技术创新，独立开发了多个软件项目，并成功申请3项软著。我相信，扎实的专业基础、丰富的实践经验以及良好的沟通协作能力！
+          </p>
+        </section>
+        
+        <section class="service">
+          <h3 class="h3 service-title">个人标签</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-design.svg" alt="design icon" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">独立开发者</h4>
+                <p class="service-item-text">独立完成市场调研及需求分析，针对软件市场痛点和缺口，从架构设计到全栈开发针对应用。</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">网站开发</h4>
+                <p class="service-item-text">以高水准进行高质量的网站开发。</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">执行主席</h4>
+                <p class="service-item-text">这段经历使我具备良好的管理策划协调能力与抗压能力。</p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box"><img src="./assets/images/icon-photo.svg" alt="camera icon" width="40"></div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">个人博主</h4>
+                <p class="service-item-text">搭建个人博客与微信公众号，B站单视频超30万播放。</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="testimonials">
+          <h3 class="h3 testimonials-title">老师评价</h3>
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="张伟 教授" width="60" data-testimonials-avatar>
+                </figure>
+                <div class="testimonial-title-wrapper">
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>张伟</h4>
+                  <div class="testimonial-position" data-testimonials-position>教授</div>
+                </div>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>王宇同学学习态度端正，富有探索精神。他在课堂上思维活跃，善于发现并解决问题，其开发的“幸运色彩”项目在毕业设计中表现突出，展现了扎实的专业功底和出色的创新能力。</p>
+                </div>
+                <time datetime="2024-06-20" data-testimonials-date style="display: none;">2024年6月20日</time>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="李静 副教授" width="60" data-testimonials-avatar>
+                </figure>
+                <div class="testimonial-title-wrapper">
+                  <h4 class="h4 testimonials-item-title" data-testimonials-title>李静</h4>
+                  <div class="testimonial-position" data-testimonials-position>副教授</div>
+                </div>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>该生具备很强的自学能力和动手实践能力，在校期间不仅掌握了冶金专业知识，还独立完成了多个Web项目。他有责任心，沟通协作能力强，是一位综合素质优秀的学生。</p>
+                </div>
+                <time datetime="2024-06-15" data-testimonials-date style="display: none;">2024年6月15日</time>
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="王丽 讲师" width="60" data-testimonials-avatar>
+                </figure>
+                <div class="testimonial-title-wrapper">
+                    <h4 class="h4 testimonials-item-title" data-testimonials-title>王丽</h4>
+                    <div class="testimonial-position" data-testimonials-position>讲师</div>
+                </div>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>作为班级的技术骨干，王宇同学乐于助人，积极参与各项活动并承担重要角色。他的跨学科技能和项目经验，使他成为了同学们眼中的榜样。</p>
+                </div>
+                <time datetime="2024-05-30" data-testimonials-date style="display: none;">2024年5月30日</time>
+              </div>
+            </li>
+
+          </ul>
+        </section>
+
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn><ion-icon name="close-outline"></ion-icon></button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <div class="modal-title-wrapper">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+                <div class="testimonial-position" data-modal-position>Position</div>
+              </div>
+              <time datetime="2024-01-01" data-modal-time>Jan 01, 2024</time>
+              <div data-modal-text>
+                <p>Modal Text</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </article>
+
+      <article class="honor" data-page="honor">
+        <header>
+          <h2 class="h2 article-title">荣誉集</h2>
+        </header>
+        <section class="projects">
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="软著"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">软著</p></a></li>
+            <li class="project-item active" data-filter-item data-category="软著"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">软著</p></a></li>
+            <li class="project-item active" data-filter-item data-category="软著"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">软著</p></a></li>
+            <li class="project-item active" data-filter-item data-category="认证"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">认证</p></a></li>
+            <li class="project-item active" data-filter-item data-category="认证"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">认证</p></a></li>
+            <li class="project-item active" data-filter-item data-category="认证"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">认证</p></a></li>
+            <li class="project-item active" data-filter-item data-category="获奖"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">获奖</p></a></li>
+            <li class="project-item active" data-filter-item data-category="获奖"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">获奖</p></a></li>
+            <li class="project-item active" data-filter-item data-category="获奖"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">获奖</p></a></li>
+            <li class="project-item active" data-filter-item data-category="认证"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">认证</p></a></li>
+            <li class="project-item active" data-filter-item data-category="获奖"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">获奖</p></a></li>
+            <li class="project-item active" data-filter-item data-category="获奖"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">获奖</p></a></li>
+            <li class="project-item active" data-filter-item data-category="获奖"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">获奖</p></a></li>
+            <li class="project-item active" data-filter-item data-category="获奖"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">获奖</p></a></li>
+            <li class="project-item active" data-filter-item data-category="获奖"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">获奖</p></a></li>
+            <li class="project-item active" data-filter-item data-category="荣誉"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">荣誉</p></a></li>
+            <li class="project-item active" data-filter-item data-category="获奖"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">获奖</p></a></li>
+            <li class="project-item active" data-filter-item data-category="获奖"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">获奖</p></a></li>
+            <li class="project-item active" data-filter-item data-category="获奖"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">获奖</p></a></li>
+          
+
+          </ul>
+        </section>
+      </article>
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">作品集</h2>
+        </header>
+        <section class="projects">
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="作品"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">作品</p></a></li>
+            <li class="project-item active" data-filter-item data-category="作品"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">作品</p></a></li>
+            <li class="project-item active" data-filter-item data-category="作品"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">作品</p></a></li>
+            <li class="project-item active" data-filter-item data-category="作品"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">作品</p></a></li>
+            <li class="project-item active" data-filter-item data-category="作品"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">作品</p></a></li>
+          </ul>
+        </section>
+      </article>
+
+      <article class="experience" data-page="experience">
+        <header>
+          <h2 class="h2 article-title">经历集</h2>
+        </header>
+        <section class="projects">
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="校园经历"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">校园经历</p></a></li>
+            <li class="project-item active" data-filter-item data-category="校园经历"><a href="#"><figure class="project-img"><div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div><img src="./assets/images/image.png" alt="X" loading="lazy"></figure><h3 class="project-title">X</h3><p class="project-category">校园经历</p></a></li>
+            </ul>
+        </section>
+      </article>
+
+      <article class="blog" data-page="blog">
+        <header><h2 class="h2 article-title">推文</h2></header>
+        <section class="blog-posts">
+          <ul class="blog-posts-list">
+            <li class="blog-post-item"><a href="https://mp.weixin.qq.com/s/E7pDzL367SP-JnLFlsfEtg"><figure class="blog-banner-box"><img src="https://daily.xiaoyu.ac.cn/2025/07/64b70d0153e2abb2397e5e9cce91717a.avif" alt="ClawCloud" loading="lazy"></figure><div class="blog-content"><div class="blog-meta"><p class="blog-category">Web</p><span class="dot"></span><time datetime="2025-07-19">Jul 19, 2025</time></div><h3 class="h3 blog-item-title">ClawCloud——字节旗下的免费VPS</h3><p class="blog-text">字节旗下的免费VPS！</p></div></a></li>
+            <li class="blog-post-item"><a href="https://mp.weixin.qq.com/s/uqE8ZgJ0Vlfrf7AfgE8Cvg"><figure class="blog-banner-box"><img src="https://daily.xiaoyu.ac.cn/2025/07/6b68f4fc006a7175b19f7549de4412a3.avif" alt="Pot" loading="lazy"></figure><div class="blog-content"><div class="blog-meta"><p class="blog-category">Tools</p><span class="dot"></span><time datetime="2025-07-17">Jul 17, 2025</time></div><h3 class="h3 blog-item-title">Pot——您的最后一款翻译软件</h3><p class="blog-text">免费AI翻译软件！</p></div></a></li>
+            <li class="blog-post-item"><a href="https://mp.weixin.qq.com/s/JjO9iZW5GZAodpxrLxhTMg"><figure class="blog-banner-box"><img src="https://daily.xiaoyu.ac.cn/2025/07/f18460c15ae1e745764effa3297f0575.avif" alt="ChatGPT" loading="lazy"></figure><div class="blog-content"><div class="blog-meta"><p class="blog-category">Tools</p><span class="dot"></span><time datetime="2025-07-13">Jul 13, 2025</time></div><h3 class="h3 blog-item-title">ChatGPT API KEY - 免费领取！</h3><p class="blog-text">国内动态加速 直连无需代理！</p></div></a></li>
+            <li class="blog-post-item"><a href="https://mp.weixin.qq.com/s/hTjp5_Ujy7nMqFmX4rrNfA"><figure class="blog-banner-box"><img src="https://daily.xiaoyu.ac.cn/2025/07/4ff14b93a7b971cff946456c249b5b15.avif" alt=".dpdns.org" loading="lazy"></figure><div class="blog-content"><div class="blog-meta"><p class="blog-category">Web</p><span class="dot"></span><time datetime="2025-07-08">Jul 08, 2025</time></div><h3 class="h3 blog-item-title">.dpdns.org——来自非营利组织的免费域名</h3><p class="blog-text">.dpdns.org-属于年轻人的第一个免费域名!</p></div></a></li>
+            <li class="blog-post-item"><a href="https://mp.weixin.qq.com/s/mIh0ry2b4MvPa-8hocmapw"><figure class="blog-banner-box"><img src="https://daily.xiaoyu.ac.cn/2025/07/7b18e2f8ff34b7ebce2d9c805753856f.avif" alt="LibreTV" loading="lazy"></figure><div class="blog-content"><div class="blog-meta"><p class="blog-category">Web</p><span class="dot"></span><time datetime="2025-07-04">Jul 04, 2025</time></div><h3 class="h3 blog-item-title">LibreTV - 动手搭建免费在线视频播放平台</h3><p class="blog-text">动手搭建属于你自己的第一个开源项目！</p></div></a></li>
+            <li class="blog-post-item"><a href="https://mp.weixin.qq.com/s/qLSHJ0wRff8BCjq92_oRkg"><figure class="blog-banner-box"><img src="https://daily.xiaoyu.ac.cn/2025/07/7e5efa01b58a8d7a71110694fad935fb.avif" alt="神级插件" loading="lazy"></figure><div class="blog-content"><div class="blog-meta"><p class="blog-category">Tools</p><span class="dot"></span><time datetime="2025-06-23">Jun 23, 2025</time></div><h3 class="h3 blog-item-title">效率党狂喜！这9款神级插件，让你的浏览器变身「超级生产力工具」</h3><p class="blog-text">全是精华！淘汰了99%的插件后，我只留下了这几个压箱底的宝贝！</p></div></a></li>
+          </ul>
+        </section>
+      </article>
+
+      <footer class="site-footer">
+        <div class="footer-copyright">
+          ©2025 By WangYu.<br>All Rights Reserved.
+        </div>
+        <div class="footer-icp">
+          <a href="https://beian.miit.gov.cn" target="_blank">[ICP备案号]</a>
+        </div>
+      </footer>
+    </div>
+
+    <a href="./assets/files/王宇简历.pdf" class="fab-resume" title="简历下载" download>
+      <ion-icon name="document-text-outline"></ion-icon>
+    </a>
+
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
